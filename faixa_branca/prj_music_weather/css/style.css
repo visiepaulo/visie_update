@@ -12,8 +12,17 @@ body {
     background-color: cadetblue;
 }
 
-.weather .main {
+.tab {
+    display: none;
 }
 
-.weather .response {
+.tab:target {
+    display: block;
+}
+
+.playlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
 }
