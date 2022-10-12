@@ -1,0 +1,19 @@
+@import "./reset.css";
+
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.weather {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    overflow: hidden;
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+.weather .main {
+}
+
+.weather .response {
+}

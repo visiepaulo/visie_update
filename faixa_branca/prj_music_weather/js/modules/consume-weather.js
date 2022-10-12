@@ -1,3 +1,1 @@
-export default function initConsumeWeather() {
-    console.log("consumindo Weather");
-}
+export default function initConsumeWeather() {}
