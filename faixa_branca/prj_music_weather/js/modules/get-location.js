@@ -1,16 +1,18 @@
+import initConsumeWeather from "./consume-weather.js";
+
 export default function initGetLocation() {
     const btn = document.getElementById("tryBtn");
-    const response = document.getElementById("response");
+    const container = document.getElementById("container");
 
     function getPosition(position) {
         const lat = position.coords.latitude;
         const lon = position.coords.longitude;
 
-        console.log(lat, lon);
+        initConsumeWeather(lat, lon);
     }
 
     function errorPosition() {
-        response.innerHTML =
+        container.innerHTML =
             "Você precisa autorizar a localização em seu navegador";
     }
 
@@ -21,7 +23,7 @@ export default function initGetLocation() {
                 errorPosition
             );
         } else {
-            response.innerHTML = "Houve um erro";
+            container.innerHTML = "Houve um erro";
         }
     }
 
