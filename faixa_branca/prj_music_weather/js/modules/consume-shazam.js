@@ -10,8 +10,7 @@ export default function initConsumeShazam(temp) {
     const options = {
         method: "GET",
         headers: {
-            "X-RapidAPI-Key":
-                "c3aced0aa2msh32455b3f92bfdd3p14d088jsn7738bbe5faeb",
+            "X-RapidAPI-Key": "",
             "X-RapidAPI-Host": "shazam-core.p.rapidapi.com",
         },
     };
