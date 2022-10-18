@@ -1,7 +1,7 @@
 import initConsumeShazam from "./consume-shazam.js";
 
 export default function initConsumeWeather(lat, lon) {
-    const key = "";
+    const key = "8738e03effc040bc075baa2cea0debdb";
     const container = document.getElementById("container");
 
     fetch(

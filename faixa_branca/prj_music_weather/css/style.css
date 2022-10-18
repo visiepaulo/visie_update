@@ -12,8 +12,18 @@ body {
     background-color: cadetblue;
 }
 
+.nav-tabs {
+    display: flex;
+    padding: 20px;
+}
+
+.nav-tabs li:not(:last-child) {
+    margin-right: 20px;
+}
+
 .tab {
     display: none;
+    padding: 20px;
 }
 
 .tab:target {
@@ -25,4 +35,45 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     row-gap: 20px;
     column-gap: 10px;
+}
+
+.song {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.song figure img {
+    border-radius: 4px;
+    border: solid 1px transparent;
+    margin-bottom: 8px;
+}
+
+.song a {
+    color: black;
+}
+
+.song:hover a {
+    text-decoration: underline;
+}
+
+.song:hover figure img {
+    border: solid 1px black;
+}
+
+.song figure figcaption {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.song figure figcaption span {
+    margin-bottom: 8px;
+}
+
+.song button {
+    padding: 2px 8px;
+    width: max-content;
+    cursor: pointer;
 }
