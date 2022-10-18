@@ -11,8 +11,11 @@ export default function initCreateSong(song) {
     const button = document.createElement("button");
     button.id = "add";
     button.innerText = "Salvar";
+    title.id = "title";
     title.innerText = `${song.title}`;
+    subtitle.id = "subtitle";
     subtitle.innerText = `${song.subtitle}`;
+    figcaption.classList.add("song-desc");
     figcaption.appendChild(title);
     figcaption.appendChild(subtitle);
     figure.appendChild(img);

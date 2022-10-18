@@ -1,4 +1,5 @@
 import initCreateSong from "./create-song.js";
+import initSaveMusic from "./save-music.js";
 
 export default function initConsumeShazam(temp) {
     let genre;
@@ -30,6 +31,7 @@ export default function initConsumeShazam(temp) {
                     container.appendChild(initCreateSong(song));
                 });
                 genreTitle.innerText = genre;
+                initSaveMusic();
             })
             .catch((err) => console.error(err));
     }
