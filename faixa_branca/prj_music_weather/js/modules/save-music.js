@@ -4,8 +4,8 @@ export default function initSaveMusic() {
 
         const { src } = song.querySelector("img");
         const { href } = song.querySelector("a");
-        const title = song.querySelector("#title");
-        const subtitle = song.querySelector("#subtitle");
+        const title = song.querySelector("#title").innerText;
+        const subtitle = song.querySelector("#subtitle").innerText;
 
         const songToSave = {
             src,

@@ -1,5 +1,6 @@
 export default function initCreateSong(song) {
-    const li = document.createElement("li", { class: "song" });
+    const li = document.createElement("li");
+    li.classList.add("song");
     const a = document.createElement("a");
     a.href = `${song.url}`;
     const figure = document.createElement("figure");
