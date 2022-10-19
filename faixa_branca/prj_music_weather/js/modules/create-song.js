@@ -1,17 +1,20 @@
-export default function initCreateSong(song) {
+export default function initCreateSong(song, index) {
     const li = document.createElement("li");
     li.classList.add("song");
     const a = document.createElement("a");
-    a.href = `${song.url}`;
+    a.href = `${song.href}`;
     const figure = document.createElement("figure");
     const figcaption = document.createElement("figcaption");
     const img = document.createElement("img");
-    img.src = `${song.images.background}`;
+    img.src = `${song.src}`;
     const title = document.createElement("span");
     const subtitle = document.createElement("span");
     const button = document.createElement("button");
-    button.id = "add";
-    button.innerText = "Salvar";
+    button.id = `${song.buttonId}`;
+    button.innerText = `${song.buttonTxt}`;
+    if (index !== undefined) {
+        button.dataset.value = index;
+    }
     title.id = "title";
     title.innerText = `${song.title}`;
     subtitle.id = "subtitle";

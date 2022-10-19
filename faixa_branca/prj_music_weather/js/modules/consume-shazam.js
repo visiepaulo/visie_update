@@ -28,7 +28,23 @@ export default function initConsumeShazam(temp) {
             .then((response) => response.json())
             .then((object) => {
                 Object.values(object).forEach((song) => {
-                    container.appendChild(initCreateSong(song));
+                    const src = `${song.images.background}`;
+                    const href = `${song.url}`;
+                    const title = `${song.title}`;
+                    const subtitle = `${song.subtitle}`;
+                    const buttonTxt = "Salvar";
+                    const buttonId = "add";
+
+                    const songToMount = {
+                        src,
+                        href,
+                        title,
+                        subtitle,
+                        buttonTxt,
+                        buttonId,
+                    };
+
+                    container.appendChild(initCreateSong(songToMount));
                 });
                 genreTitle.innerText = genre;
                 initSaveMusic();
