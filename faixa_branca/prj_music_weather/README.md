@@ -1,13 +1,20 @@
-Este projeto cobre os seguintes requisitos:
-HTML
-Sintaxe básica, tags e atributos,
-Semântica: article, aside, nav, h1 ... h6, p, ul, ol, dl
+# Este projeto cobre os seguintes requisitos:
 
-CSS
-Basic Selectors ( Class, Tags, ID ), Colors, Backgrounds, Typography, Sizes, Display, Rounded Corners
+## HTML
 
-HTML5 APIs
-localStorage, sessionStorage, GeoLocation
+-   Sintaxe básica, tags e atributos,
+-   Semântica
 
-Navegador e rede
-fetch (incluindo POST JSON)
+## CSS
+
+-   Basic Selectors ( Class, Tags, ID ), Colors, Backgrounds, Typography, Sizes, Display, Rounded Corners
+
+## HTML5 APIs
+
+-   localStorage
+-   sessionStorage
+-   GeoLocation
+
+## Navegador e rede
+
+-   fetch
