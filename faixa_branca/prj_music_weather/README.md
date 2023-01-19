@@ -16,7 +16,7 @@ Links para as API'S:
 
 ###
 
-## Este projeto cobre os seguintes requisitos:
+# Este projeto cobre os seguintes requisitos:
 
 ## HTML
 
