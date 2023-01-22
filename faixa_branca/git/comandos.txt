@@ -1,0 +1,8 @@
+Comandos git
+
+git clone: cria uma cópia local de um repositório remoto.
+git checkout: muda para outra branch ou volta para uma versão específica do código. 
+git commit: adiciona as alterações atuais para o histórico de commits local.
+git pull: traz as alterações do repositório remoto para o repositório local.
+git push: envia as alterações do repositório local para o repositório remoto. 
+git merge: combina alterações de uma branch com outra. 

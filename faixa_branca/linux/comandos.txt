@@ -1,0 +1,9 @@
+Comandos linux:
+
+cd: muda o diretório corrente. 
+pwd: exibe o caminho completo do diretório corrente.
+mkdir: cria um novo diretório (pasta). 
+ls: lista os arquivos e diretórios dentro do diretório corrente.
+cp: copia um arquivo ou diretório para outro local. 
+mv: move um arquivo ou diretório para outro local ou renomeia um arquivo ou diretório. 
+rm: remove um arquivo ou diretório. 
