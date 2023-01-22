@@ -1,6 +1,6 @@
 import requests
 
-data = {'title': 'foo', 'body': 'bar', 'userId': 1}
+data = {'title': 'Visie Update', 'body': 'Paulo Diniz', 'userId': 1}
 
 response = requests.post('https://jsonplaceholder.typicode.com/posts', json=data)
 

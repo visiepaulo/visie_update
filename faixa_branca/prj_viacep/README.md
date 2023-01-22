@@ -4,6 +4,12 @@ Este programa possibilita consultar um CEP, através do módulo requests do pyth
 
 # Este projeto cobre os seguintes requisitos:
 
+## PYTHON
+
+-   dict
+-   estruturas de controle
+-   funções
+
 ## PYTHON MODULES
 
 -   Requests
