@@ -1,7 +1,7 @@
 import requests
 
 def buscaCep(cep):
-    response = requests.get(f'https://viacep.com.br/ws/{entrada}/json/')
+    response = requests.get(f'https://viacep.com.br/ws/{cep}/json/')
     return response.json()
 
 entrada = input('digite o CEP que deseja consultar (somente números): ')
