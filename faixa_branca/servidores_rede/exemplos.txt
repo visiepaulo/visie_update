@@ -1,0 +1,11 @@
+SSH (Secure Shell) é um protocolo de rede seguro que permite acesso remoto a um dispositivo. Ele fornece uma maneira segura de se conectar a um dispositivo remoto e executar comandos nele, bem como transferir arquivos.
+
+As chaves pública e privada são usadas para autenticação SSH. A chave privada fica no dispositivo local (geralmente em seu computador pessoal) e a chave pública é copiada para o dispositivo remoto (por exemplo, um servidor). Quando você se conecta ao dispositivo remoto, sua chave privada é usada para criptografar um desafio enviado pelo dispositivo remoto. O dispositivo remoto, por sua vez, usa sua chave pública para decifrar esse desafio e, se a decifração for bem-sucedida, permite que você se conecte.
+
+authorized_keys é um arquivo no dispositivo remoto que contém uma lista de chaves públicas que são permitidas se conectar a ele. Para adicionar sua chave pública a esse arquivo, você precisará se conectar ao dispositivo remoto e adicioná-la manualmente.
+
+Screen é um programa de terminal que permite executar vários terminais virtuais dentro de uma única sessão de terminal. Isso é útil se você precisar executar vários comandos ou aplicativos de forma simultânea e não quiser abrir várias janelas de terminal.
+
+SCP (Secure Copy Protocol) é um protocolo de rede seguro para transferir arquivos entre dispositivos. Ele é semelhante ao comando "cp" (copiar), mas é usado para copiar arquivos entre dispositivos remotos.
+
+Rsync é outro programa de linha de comando para transferência de arquivos, ele é similar ao SCP mas ele é mais eficiente quando se trata de transferir arquivos grandes ou muitos arquivos, pois ele só copia as partes dos arquivos que foram modificadas.
